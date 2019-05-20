@@ -3,10 +3,10 @@ import time
 
 print('Please enter the link')
 
-CONSUMER_KEY = 'QJJmBn2z9NB6RDdkSURp5vtV5'
-CONSUMER_SECRET = 'O5Mf0X88F8poLxoRDmZssWaHigEwE1G5OQbnpS7ATuib1L3wDq'
-ACCESS_KEY = '551845623-XW7VpMrpexZmcgAfaVrf8yx0eYUJkwrMduQqyfDV'
-ACCESS_SECRET = 'TU6h6VxzZW0JkjmynhKxtgtMPcC0vJ2aT8DUxMpVz3E1I'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+ACCESS_KEY = ''
+ACCESS_SECRET = ''
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
